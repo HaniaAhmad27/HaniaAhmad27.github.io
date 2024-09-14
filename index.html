@@ -7,17 +7,19 @@
     rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlog</title>
+    <title>Movie Puff</title>
 </head>
 <body>
     <header id="main-header"> 
         <!-- the content of the header goes here  -->
-         <h1 id="logo"> BrightBlog  </h1>
+         <h1 id="logo"> Movie Puff  </h1>
          <nav>
             <ul id="nav-ul"> 
                  <li><a href="" class="navbutton">Home</a></li>
                  <li><a href="" class="navbutton">About Us</a></li>
-                 <li><a href="" class="navbutton">Contact</a></li>
+                 <li><a href="" class="navbutton">News</a></li>
+                 <li><a href="" class="navbutton">Reviews</a></li>
+                 <li><a href="" class="navbutton">Sign in</a></li>
             </ul>
          </nav>
     </header>
@@ -38,10 +40,14 @@
                     <h4>Filter by Category</h4>
                     <nav>
                         <ul>
-                            <li><a href="">Puppies</a></li>
-                            <li><a href="">Dogs</a></li>
-                            <li><a href="">Cats</a></li>
-                            <li><a href="">Hedgehogs</a></li>
+                            <li><a href="">Action</a></li>
+                            <li><a href="">Comedy</a></li>
+                            <li><a href="">Rom-Coms</a></li>
+                            <li><a href="">Musicals</a></li>
+                            <li><a href="">Animated</a></li>
+                            <li><a href="">Horror</a></li>
+                            <li><a href="">Documentary</a></li>
+                            <li><a href="">Movies from around the World</a></li>
                         </ul>
                     </nav>
                     
@@ -51,14 +57,15 @@
                 <article>
                     <header>
                         <!-- Article's header goes here  -->
-                         <h2>Ten Amusing Facts About Dogs </h2>
+                         <h2>Beetlejuice Brings the Boo-tiful Chaos: A Hauntingly Good Time! </h2>
                          <h3>Read time: 5 minutes </h3>
                     </header>
                     <main>
+                        <img src="beetlejuice_new.webp" alt="A picture of Beetlejuice">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, minima hic ducimus dolorum sunt officiis praesentium eaque animi adipisci incidunt sit debitis autem voluptatibus voluptatem possimus numquam cum. Velit, consectetur?</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem corporis, aliquid molestiae, quidem ab dolorem eos beatae vero culpa dolores adipisci ut quis neque nihil ipsum! Minus neque, laboriosam cupiditate error cum fugiat minima eum earum atque aut enim reprehenderit blanditiis rerum debitis, iste dignissimos, et aliquid quis vero repudiandae culpa numquam! Vero explicabo doloribus, quibusdam obcaecati neque adipisci labore corrupti cupiditate! Velit doloribus vitae beatae voluptatem numquam? Ad omnis blanditiis nostrum a mollitia laudantium consequatur provident ut alias reiciendis doloremque fuga, eius perferendis pariatur consequuntur possimus, ipsa dolorem distinctio. Enim harum voluptatibus cum amet consequatur magnam quaerat iusto ipsam?</p>
                         <blockquote>
-                            "I love puppies!" - <cite>Zslot, 2024</cite>
+                            "I love Beetlejuice!" - <cite>Hannah, 2024</cite>
                         </blockquote>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A asperiores eius sit omnis commodi ex non rerum tenetur fugiat possimus accusantium assumenda et, blanditiis esse cupiditate rem minus quod. Ullam enim illum consequuntur vero assumenda quo! Facere excepturi modi maiores repudiandae doloremque. Placeat error inventore incidunt natus? Reiciendis magnam accusamus inventore explicabo placeat ab impedit temporibus repellat ex ipsum libero reprehenderit quae dolorum perspiciatis, quas beatae atque, voluptatibus unde harum illum veritatis, eos tempora debitis ad? At perspiciatis debitis aliquam?</p>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus delectus ipsum minus consequatur modi, provident illo quo? Consequuntur assumenda autem, libero omnis quidem explicabo eius fugit veritatis error repellat, maiores deleniti totam dicta debitis reiciendis ipsa, quaerat sequi veniam aliquam. Quisquam amet atque tempore alias veniam deleniti aliquam temporibus nam? Nobis, dicta odio quis repellendus sint quibusdam molestias alias laborum voluptas ut blanditiis sunt optio quam ad repellat eum veritatis, atque, nam magnam placeat! Voluptate distinctio et, accusamus delectus eius placeat, consequatur ullam dolore iure odit esse! At reprehenderit hic illo commodi facere. Voluptate iure in corporis eveniet natus ut harum dolore molestias iusto eaque dolor debitis quisquam beatae et delectus possimus tempore aliquid labore, perferendis sint id tenetur enim autem error. Veniam accusantium eius modi quisquam, voluptas atque autem ea pariatur dolore similique, possimus dignissimos quis. Labore, obcaecati? Cupiditate libero ipsum cumque eum quam veritatis ut ullam soluta! Suscipit!</p>
@@ -120,7 +127,7 @@
         
         <!-- main content of the website goes here  -->
          <hr>
-        <h2>Sign up for our newsletter!</h2>
+        <h2>Don't miss out! Sign up for our newsletter NOW!</h2>
          <form action="">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required> 
@@ -134,13 +141,15 @@
             <label for="password">Password:</label>
             <input type="password" name="password" id="password">
             <br>
-            <label for="favourite_animal">Favourite Animal</label>
-            <input type="radio" name="favourite_animal" id="dog" value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="favourite_animal" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
-            <label for="hedgehog">Hedgehog</label>
+            <label for="favourite_genre">Favourite Genre</label>
+            <input type="radio" name="favourite_genre" id="action" value="action">
+            <label for="action">Action</label>
+            <input type="radio" name="favourite_genre" id="comedy" value="comedy">
+            <label for="comedy">Comedy</label>
+            <input type="radio" name="favourite_genre" id="Rom-Com" value="Rom-Com">
+            <label for="Rom-Com"></label>Rom-Com </label>
+            <input type="radio" name="favourite_genre" id="horror" value="horror">
+            <label for="horror">Horror</label>
          <br>
          <label for="country">Country:</label>
          <select name="counrty" id="country">
@@ -161,7 +170,10 @@
          <hr>
     </main>
     <footer>
-        <h2>BrightBlogSite</h2>
+        <h2>Movie Puff</h2>
+        <br>
+        <br>
+        <h3>Bringing you the latest movie news and ratings!</h3>
         <section>
             <nav>
                 <ul id="footer-ul">
